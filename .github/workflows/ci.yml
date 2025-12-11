@@ -17,8 +17,7 @@ jobs:
           node-version: '22'
       - name: Install dependencies
         run: npm ci
-        working-directory: ./spfx || .
-      - name: Build (example)
-        run: |
-          npm run build --if-present
-        working-directory: ./spfx || .
+        working-directory: ./spfx
+      - name: Build
+        run: npm run build --if-present
+        working-directory: ./spfx
