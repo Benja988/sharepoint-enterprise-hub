@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sharepoint-enterprise-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharepointEnterpriseHub/SharepointEnterpriseHubWebPart.js",
+          "manifest": "./src/webparts/sharepointEnterpriseHub/SharepointEnterpriseHubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharepointEnterpriseHubWebPartStrings": "lib/webparts/sharepointEnterpriseHub/loc/{locale}.js"
+  }
+}
