@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/sharepointEnterpriseHub/SharepointEnterpriseHubWebPart.manifest.json"
         }
       ]
+    },
+    "sharepoint-enterprise-hub-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharepointEnterpriseHub1/SharepointEnterpriseHub1WebPart.js",
+          "manifest": "./src/webparts/sharepointEnterpriseHub1/SharepointEnterpriseHub1WebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "SharepointEnterpriseHubWebPartStrings": "lib/webparts/sharepointEnterpriseHub/loc/{locale}.js"
+    "SharepointEnterpriseHubWebPartStrings": "lib/webparts/sharepointEnterpriseHub/loc/{locale}.js",
+    "SharepointEnterpriseHub1WebPartStrings": "lib/webparts/sharepointEnterpriseHub1/loc/{locale}.js"
   }
 }
