@@ -1,0 +1,8 @@
+node_modules/
+dist/
+lib/
+package-lock.json
+.env
+.vscode/
+.DS_Store
+gulpfile.js # if generated locally and not needed
